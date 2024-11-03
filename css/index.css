@@ -1,0 +1,57 @@
+/* Links */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* CSS - Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --c1: #B9E5E8;
+    --c2: #7AB2D3;
+    --c3: #4A628A;
+}
+
+/* CSS - Home */
+body{
+    background: linear-gradient(240deg, hsla(218, 30%, 42%, 0.521), hsla(0, 0%, 0%, 0.651)), url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+/* CSS - Content */
+.head1{
+    cursor: default;
+    font-size: 100px;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+.para1{
+    cursor: default;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.btn1{
+    background-color: var(--c2);
+    color: black;
+    font-weight: 500;
+    border: 2px solid var(--c3);
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.btn1:hover{
+    background-color: var(--c3);
+    color: white;
+    border: 2px solid var(--c2);
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
+  
